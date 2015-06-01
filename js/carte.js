@@ -161,7 +161,12 @@
       setState('hovered', null);
     })
     .bind('clickNode', function(e) {
-      setState('selected', e.data.node.id);
+      // The following line was hiding nodes that are not connected to the
+      // clicked node.
+      // setState('selected', e.data.node.id);
+
+      // Instead, I prefer to open the link in a new tab:
+      window.open(e.data.node.url, '_blank').focus();
     })
     .bind('clickStage', function(e) {
       if (!e.data.captor.isDragging)

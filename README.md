@@ -18,4 +18,12 @@ Aussi, les communautés ont été [détectées automatiquement](http://en.wikipe
 
 La carte présente bien des sites traitant de JavaScript, essentiellement dans la communauté nommée à l'origine "Intégration / Web design". Mais contrairement aux autres thématiques, ils sont moins nombreux et ne se présentent pas tous regroupés de manière assez dense pour émerger en tant que communauté à part entière.
 
-Néanmoins, comme ils sont bien présents, j'ai renommé la communauté "Intégration / Web design" en "Développement et design Web".
+Néanmoins, comme ils sont effectivement présents, j'ai renommé la communauté "Intégration / Web design" en "Développement et design Web".
+
+### Questions
+
+**"Pourquoi mon site apparaît-il dans telle communauté?"**
+
+La position d'un noeud dépend autant de ses liens sortants qu'entrants. Passer la souris au dessus d'un noeud permet de mettre en évidence ses voisins, et cela peut parfois révéler que ce site est plus cité par des sites d'une communauté en particulier. C'est par exemple le cas de *clever-age.com*, qui est relié à 14 sites de la communauté *Accessibilité*, sur 28 voisins au total.
+
+Néanmoins, pour d'autres noeuds, il peut apparaître qu'aucune communauté n'est beaucoup plus présente que les autres dans les voisins. Ces noeuds-ci (souvent des noeuds au centre du graphe, comme *alsacreations.com* par exemple) ne constituent pas une communauté à part car ils sont trop connectés avec les autres communautés. Ils sont ainsi chacun rattaché à une communauté, même si cette appartenance est moins significative que pour les autres noeuds.

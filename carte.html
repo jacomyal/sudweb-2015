@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Une cartographie du Web francophone des travailleurs du Web</title>
+  <link rel="stylesheet" type="text/css" href="css/carte.css">
+</head>
+<body>
+  <div id="sigma-container"></div>
+  <div class="header">
+    <h1 id="title">Une cartographie du Web francophone des travailleurs du Web</h1>
+  </div>
+  <div id="caption">
+    <div class="graph">
+      <h4>Taille du graphe</h4>
+      <ul>
+      <!-- Dymanically generated -->
+      </ul>
+    </div>
+    <hr>
+    <div class="communities">
+      <h4>Couleur des noeuds</h4>
+      <ul class="cancel">
+      <!-- Dymanically generated -->
+      </ul>
+    </div>
+    <hr>
+    <div class="centrality">
+      <h4>Taille des noeuds</h4>
+      <ul class="cancel">
+        <li>
+          <span class="circle-l"></span>
+          <span>Centralité élevée</span>
+        </li>
+        <li>
+          <span class="circle-m"></span>
+          <span>Centralité faible</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="node-info"></div>
+
+  <script src="js/sigma.min.js"></script>
+  <script src="js/sigma.parsers.json.min.js"></script>
+  <script src="js/sigma.plugins.animate.min.js"></script>
+  <script src="js/carte.js"></script>
+</body>
+</html>

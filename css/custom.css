@@ -1,0 +1,70 @@
+section.light * {
+  color: black !important;
+}
+section.dark * {
+  color: white !important;
+  text-shadow:
+    0 0 15px black,
+    0 0 10px black,
+    0 0 5px black !important;
+}
+section.mixed * {
+  color: black !important;
+}
+section.mixed > .wrapper {
+  display: inline-block;
+  padding: 30px 50px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 15px black;
+}
+
+section.custom {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+section.custom .top,
+section.custom .left,
+section.custom .right,
+section.custom .bottom { position: absolute !important }
+
+section.custom .top { top: 0 !important; }
+section.custom .left { left: 0 !important; }
+section.custom .right { right: 0 !important; }
+section.custom .bottom { bottom: 0 !important; }
+
+.no-margin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.me {
+  font-size: 0.6em !important;
+}
+.me img {
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.me .me-row {
+  padding-left: 27%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.me .me-row > * {
+  vertical-align: top;
+}
+.me .me-left {
+  display: inline-block;
+  width: 33%;
+}
+.me .me-right {
+  display: inline-block;
+  width: 42%;
+}
+.me ul {
+  list-style: none;
+  margin-left: 0;
+}

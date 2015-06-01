@@ -2,7 +2,7 @@
   // Communities:
   var communities = [
         { id: 4,
-          label: 'Développement Web',
+          label: 'Développement et design Web',
           color: '#cb3434' },
         { id: 10,
           label: 'Web et société',
